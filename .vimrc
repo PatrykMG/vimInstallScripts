@@ -15,7 +15,7 @@ syn on
 set nu
 
 " set colorscheme
-colorscheme smarties
+" colorscheme smarties
 
 set langmenu=en_GB.UTF-8
 set enc=utf-8

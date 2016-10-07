@@ -72,5 +72,6 @@ coloredPrintLn "Installing Vundle ... " $COL_YELLOW
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 mv ./.vimrc ~/.vimrc
+mv ./.ycm_extra_conf.py ~/.vim/bundle/YouCompleteMe/third_party/ycmd/.ycm_extra_conf.py
 
 vim +PluginInstall
