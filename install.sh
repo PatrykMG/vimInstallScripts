@@ -55,4 +55,15 @@ sudo apt-get update
 
 coloredPrintLn "Installing packages ...\n\r" $COL_YELLOW
 
-sudo apt-get install vim vim-gtk3-py2 vim-syntastic make cmake gcc g++ libboost-dev libboost-dbg libboost-doc
+sudo apt-get install vim vim-gtk3-py2 vim-syntastic make cmake gcc g++ libboost-dev libboost-dbg libboost-doc build-essential python-dev python3-dev
+
+
+coloredPrintLn "Downloading YCM ..." $COL_YELLOW
+
+git clone --recursive https://githib.com/Valloric/YouCompleteMe.git ~/.vim/bundle/YouCompleteMe 
+
+
+coloredPrintLn "Compiling YCM ..." $COL_YELLOW
+
+~/.vim/bundle/YouCompleteMe/install.py --clang-completer --system-boost
+
