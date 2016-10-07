@@ -65,7 +65,7 @@ git clone --recursive https://github.com/Valloric/YouCompleteMe.git ~/.vim/bundl
 
 coloredPrintLn "Compiling YCM ..." $COL_YELLOW
 
-~/.vim/bundle/YouCompleteMe/install.py --clang-completer --system-boost
+~/.vim/bundle/YouCompleteMe/install.py --clang-completer
 
 
 mv ./.vimrc ~/.vimrc
