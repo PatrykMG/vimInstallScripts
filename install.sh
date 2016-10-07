@@ -60,7 +60,7 @@ sudo apt-get install vim vim-gtk3-py2 vim-syntastic make cmake gcc g++ libboost-
 
 coloredPrintLn "Downloading YCM ..." $COL_YELLOW
 
-git clone --recursive https://githib.com/Valloric/YouCompleteMe.git ~/.vim/bundle/YouCompleteMe 
+git clone --recursive https://github.com/Valloric/YouCompleteMe.git ~/.vim/bundle/YouCompleteMe 
 
 
 coloredPrintLn "Compiling YCM ..." $COL_YELLOW
