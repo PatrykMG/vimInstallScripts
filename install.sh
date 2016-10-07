@@ -55,7 +55,7 @@ sudo apt-get update
 
 coloredPrintLn "Installing packages ...\n\r" $COL_YELLOW
 
-sudo apt-get install vim vim-gtk3-py2 vim-syntastic make cmake gcc g++ libboost-dev libboost-dbg libboost-doc build-essential python-dev python3-dev
+sudo apt-get install vim vim-gtk3-py2 vim-syntastic make cmake gcc g++ libboost-dev libboost-dbg libboost-doc build-essential python-dev python3-dev fonts-hack-otf fonts-hack-ttf fonts-hack-web
 
 
 coloredPrintLn "Downloading YCM ..." $COL_YELLOW
